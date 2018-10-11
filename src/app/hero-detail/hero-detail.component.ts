@@ -18,9 +18,7 @@ export class HeroDetailComponent implements OnInit {
     ) { }
 
   ngOnInit() {
-    //console.log("xxxxxx")
     this.getHero();
-    console.log(this.hero);
   }
 
   getHero():void{
